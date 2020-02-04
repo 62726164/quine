@@ -5,4 +5,5 @@ A quine in Go
 ``` make ```
 
 ## To Test
-``` ./quine | diff main.go -```
+``` ./quine | diff main.go -``` or ```./quine > out.go && md5sum main.go out.go```
+

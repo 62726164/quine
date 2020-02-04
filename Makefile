@@ -1,5 +1,5 @@
 PROGRAM = quine
-SOURCE = *.go
+SOURCE = main.go
 
 build:
 	go build -o $(PROGRAM) $(SOURCE)
